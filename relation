@@ -1,0 +1,15 @@
+#include<stdio.h>
+#include<conio.h>
+void main()
+{
+int a,b;
+printf("ENTER TWO NUMBERS :");
+scanf("%d %d",&a,&b);
+printf("a>b is %d\n",a>b);
+printf("a<b is %d\n",a<b);
+printf("a<=bis %d\n",a<=b);
+printf("a>=b is %d\n",a>=b);
+printf("a==b is %d\n",a==b);
+printf("!=b is %d\n",a!=b);
+getch();
+}
